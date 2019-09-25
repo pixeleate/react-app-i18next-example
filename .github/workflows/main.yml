@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: docker://circleci/node:10-browsers@master
+    - uses: docker://circleci/node@master
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run a multi-line script
